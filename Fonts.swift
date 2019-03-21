@@ -8,7 +8,11 @@
 
 import UIKit
 
-public enum Fonts: String, LMFontsProtocol, CaseIterable {
+
+/// Enum with a list of all supported Fonts inside the iOS applications. You can test this fonts in the following link http://iosfonts.com
+///
+/// -
+public enum Fonts: String, LMFontsProtocol {
     
     //MARK: - Academy Engraved Let
     case academyEngravedLetPlain = "AcademyEngravedLetPlain"
