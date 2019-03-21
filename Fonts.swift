@@ -8,7 +8,7 @@
 
 import UIKit
 
-public enum Fonts: String, CaseIterable {
+public enum Fonts: String, LMFontsProtocol, CaseIterable {
     
     //MARK: - Academy Engraved Let
     case academyEngravedLetPlain = "AcademyEngravedLetPlain"
