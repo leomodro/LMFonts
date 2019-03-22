@@ -52,13 +52,29 @@
 		6708B1BB2243F94500BC0733 /* LMFonts */ = {
 			isa = PBXGroup;
 			children = (
+				6708B2012245049900BC0733 /* Support Files */,
+				6708B2002245046C00BC0733 /* Sources */,
+			);
+			path = LMFonts;
+			sourceTree = "<group>";
+		};
+		6708B2002245046C00BC0733 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
 				6708B1C42243F96400BC0733 /* LMFonts.swift */,
 				6708B1F72244122C00BC0733 /* UIFont+Extension.swift */,
 				6708B1F9224415B000BC0733 /* LMFontsProtocol.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6708B2012245049900BC0733 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
 				6708B1BC2243F94500BC0733 /* LMFonts.h */,
 				6708B1BD2243F94500BC0733 /* Info.plist */,
 			);
-			path = LMFonts;
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,7 +298,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LMFonts/Info.plist;
+				INFOPLIST_FILE = "LMFonts/Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,7 +325,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LMFonts/Info.plist;
+				INFOPLIST_FILE = "LMFonts/Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
