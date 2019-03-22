@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LMFonts"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A simple and better way to handle UIFonts in your iOS projects"
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = A simple and better way to handle UIFont in your iOS projects. With this library you can use your custom fonts and also handle the system fonts in a fun way! Check out the GitHub page to see more information about how to use.
+  s.description  = "A simple and better way to handle UIFont in your iOS projects. With this library you can use your custom fonts and also handle the system fonts in a fun way! Check out the GitHub page to see more information about how to use."
 
   s.homepage     = "https://github.com/leomodro/LMFonts"
   s.screenshots  = "https://i.imgur.com/39HowCV.gif", "https://i.imgur.com/ALbr0da.gif"
