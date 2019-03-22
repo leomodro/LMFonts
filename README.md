@@ -1,7 +1,8 @@
 # LMFonts
 ![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)
-![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20tvOS-333333.svg)
+![platforms](https://img.shields.io/cocoapods/p/LMFonts.svg)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/LMFonts.svg)](#cocoapods)
 
 A simple and better way to handle UIFonts in your iOS projects
 
