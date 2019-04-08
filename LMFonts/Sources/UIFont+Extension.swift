@@ -24,7 +24,7 @@ import UIKit
 
 public extension UIFont {
     /// Create a UIFont object with a `Fonts` enum
-    public convenience init?(font: Fonts, size: CGFloat) {
+    convenience init?(font: Fonts, size: CGFloat) {
         let fontIdentifier: String = font.rawValue
         self.init(name: fontIdentifier, size: size)
     }
