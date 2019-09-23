@@ -9,9 +9,7 @@ let package = Package(
         .iOS(.v11)
     ],
     products: [
-        .library(
-            name: "LMFonts",
-            targets: ["LMFonts"]),
+        .library(name: "LMFonts", targets: ["LMFonts"]),
     ],
     dependencies: [
         // .package(url: /* package url */, from: "1.0.0"),
@@ -19,7 +17,6 @@ let package = Package(
     targets: [
         .target(
             name: "LMFonts",
-            dependencies: [],
-            path: "./LMFonts/Sources")
+            path: "LMFonts/Sources")
     ]
 )
