@@ -28,7 +28,7 @@ s.source = { :git => "https://github.com/leomodro/LMFonts.git",
 s.framework = "UIKit"
 
 # 8
-s.source_files = "LMFonts/Sources/*.{swift}"
+s.source_files = "Sources/LMFonts/*.{swift}"
 
 # 9
 #s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
