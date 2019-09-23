@@ -1,0 +1,5 @@
+module LMFonts [system] {
+  header "/usr/include/LMFonts.h"
+  link "LMFonts"
+  export *
+}
