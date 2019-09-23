@@ -19,6 +19,7 @@ let package = Package(
     targets: [
         .target(
             name: "LMFonts",
-            dependencies: [])
+            dependencies: [],
+            path: "./LMFonts/Sources")
     ]
 )
